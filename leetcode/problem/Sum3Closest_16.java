@@ -9,7 +9,7 @@ public class Sum3Closest_16 {
         Arrays.sort(nums);
 
 //        int absolute = 0x7fffffff;
-        int absolute = Integer.MAX_VALUE
+        int absolute = Integer.MAX_VALUE;
         int result = 0;
         for (int i = 0; i < nums.length - 2; i++) {
             int left = i+1;
